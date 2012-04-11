@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: MonoDevelop\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-05-21 20:55:03+0200\n"
-"PO-Revision-Date: 2012-04-10 13:40:09+0200\n"
+"PO-Revision-Date: 2012-04-10 16:49:54+0200\n"
 "Last-Translator: Bálint Kriván <balint@krivan.info>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "Alapértelmezett"
 #: ../src/addins/TextTemplating/TextTransform/Options.cs:485
 #, fuzzy
 msgid "OptionName"
-msgstr "Beállítások"
+msgstr "BeállításNév"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/ProjectService.cs:332
 msgid "The project could not be saved"
@@ -202,36 +202,34 @@ msgstr "Ismeretlen bejegyzés"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/WorkspaceItem.cs:753
 #, fuzzy
 msgid "Workspace File"
-msgstr "Munkaterület"
+msgstr "Munkaterület Fájl"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/WorkspaceItem.cs:754
 #, fuzzy
 msgid "Workspace Name"
-msgstr "Munkaterület elmentve."
+msgstr "Munkaterület Név"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/WorkspaceItem.cs:755
 #, fuzzy
 msgid "Workspace Directory"
-msgstr "Munkakönyvtár:"
+msgstr "Munkaterület könyvtár"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Solution.cs:503
+#, fuzzy
 msgid "Startup item not set"
-msgstr ""
+msgstr "Indító állomány nincs beállítva"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Solution.cs:763
-#, fuzzy
 msgid "Solution File"
-msgstr "Megoldás fá_jl"
+msgstr "Megoldás (Solution) Fájl"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Solution.cs:764
-#, fuzzy
 msgid "Solution Name"
-msgstr "Mego_ldás név"
+msgstr "Megoldás (Solution) név"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/Solution.cs:765
-#, fuzzy
 msgid "Solution Directory"
-msgstr "_Megoldás könyvtár"
+msgstr "Megoldás (Solution) könyvtár"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:555
 msgid "Cyclic dependencies are not supported."
@@ -239,7 +237,7 @@ msgstr "A ciklikus referenciák nem megengedettek."
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionFolder.cs:560
 msgid "Building Solution {0}"
-msgstr "Megoldás fordítása: {0}"
+msgstr "Megoldás (Solution) fordítása: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/SolutionItem.cs:263
 msgid "Building: {0} ({1})"
@@ -294,9 +292,8 @@ msgid "Copy if newer"
 msgstr "Csak ha újabb"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/DotNetProject.cs:436
-#, fuzzy
 msgid "Framework '{0}' not installed."
-msgstr "A szükséges bővítmény ({0}) nincs telepítve."
+msgstr "A(z) '{0}' keretrendszer nincs telepítve."
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/DotNetProject.cs:993
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects/CompiledAssemblyProject.cs:154
@@ -382,7 +379,8 @@ msgstr ""
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1DotNetProjectHandler.cs:135
 msgid "Referenced project '{0}' not found in the solution."
-msgstr "A projekt ({0}) nem szerepel a megoldásban."
+msgstr ""
+"A hivatkozott projekt '{0}' nem szerepel a megoldásban (a solution-ben)."
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1DotNetProjectHandler.cs:146
 msgid "Reference '{0}' not found on system. Using '{1} instead."
@@ -486,14 +484,14 @@ msgstr "Nem sikerült elmenteni a projektet: {0}"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/CmbxFileFormat.cs:462
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:79
 msgid "Saving solution: {0}"
-msgstr "Megoldás mentése: {0}"
+msgstr "Megoldás (Solution) mentése: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:170
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/CmbxFileFormat.cs:469
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:95
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:96
 msgid "Could not save solution: {0}"
-msgstr "Nem sikerült menteni a megoldást: {0}"
+msgstr "A megoldás (solution) mentése nem sikerült: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:195
 msgid "Saving item: {0}"
@@ -505,26 +503,26 @@ msgstr "Nem sikerült menteni az elemet: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:215
 msgid "Saving solution item: {0}"
-msgstr "Elem mentése: {0}"
+msgstr "Megoldás (Solution) elem mentése: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:221
 msgid "Could not save solution item: {0}"
-msgstr "Nem sikerült menteni az elemet: {0}"
+msgstr "Egy megoldás (solution) rész-elem mentése nem sikerült: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:251
 msgid "Loading solution item: {0}"
-msgstr "Elem betöltése: {0}"
+msgstr "Megoldás (Solution) elem betöltése: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:262
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:353
 msgid "Could not load solution item: {0}"
-msgstr "Az elem nem tölthető be: {0}"
+msgstr "A Megoldás (Solution) elem nem tölthető be: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:300
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/CmbxFileFormat.cs:266
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:588
 msgid "Could not load solution: {0}"
-msgstr "Nem sikerült betölteni a megoldást: {0}"
+msgstr "Nem sikerült betölteni a megoldást (solution-t): {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/MD1FileFormat.cs:320
 #: ../src/addins/NUnit/Project/NUnitAssemblyGroupFileFormat.cs:85
@@ -544,7 +542,7 @@ msgstr "Munkaterület-elem betöltése: {0}"
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:585
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:615
 msgid "Loading solution: {0}"
-msgstr "Megoldás betöltése: {0}"
+msgstr "Megoldás (solution) betöltése: {0}"
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MD1/CmbxFileFormat.cs:131
 msgid "Could not load item: {0}"
@@ -621,8 +619,8 @@ msgid ""
 "Invalid solution file. There are two projects with the same GUID. The project "
 "{0} will be ignored."
 msgstr ""
-"Érvénytelen 'solution' fájl. Legalább két projekt szerepel benne ugyanazzal a "
-"GUID-al. Ki lesz hagyva a(z) {0} projekt."
+"Érvénytelen megoldás (solution) fájl. Legalább két projekt szerepel benne "
+"ugyanazzal a GUID-al. Ki lesz hagyva a(z) {0} projekt."
 
 #: ../src/core/MonoDevelop.Core/MonoDevelop.Projects.Formats.MSBuild/SlnFileFormat.cs:891
 msgid "{0} ({1}) : Unknown action. Only ActiveCfg & Build.0 supported."
@@ -870,7 +868,7 @@ msgstr "Egy .NET alkalmazáshoz tartozó konfigurációs fájlt hoz létre."
 
 #: ../src/core/MonoDevelop.Ide/templates/BlankCombine.xpt.xml:7
 msgid "Blank Solution"
-msgstr "Üres megoldásfájl"
+msgstr "Üres Megoldás (Solution)"
 
 #: ../src/core/MonoDevelop.Ide/templates/BlankCombine.xpt.xml:8
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1825
@@ -885,7 +883,7 @@ msgstr "Egyéb"
 
 #: ../src/core/MonoDevelop.Ide/templates/BlankCombine.xpt.xml:11
 msgid "A blank solution"
-msgstr "Egy üres megoldásfájl"
+msgstr "Egy üres megoldás (solution)"
 
 #: ../src/core/MonoDevelop.Ide/templates/EmptyClass.xft.xml:4
 msgid "Empty Class"
@@ -1011,11 +1009,11 @@ msgstr ".NET program"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:532
 msgid "MonoDevelop/MSBuild Solution"
-msgstr "MonoDevelop/MSBuild Megoldás"
+msgstr "MonoDevelop/MSBuild Megoldás (Solution)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:535
 msgid "MonoDevelop 1.0 Solution"
-msgstr "MonoDevelop 1.0 Megoldás"
+msgstr "MonoDevelop 1.0 Megoldás (Solution)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:539
 msgid "diff files"
@@ -1068,7 +1066,7 @@ msgstr "Projekt fájlok helye"
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1799
 #: ../src/addins/WelcomePage/WelcomePageContent.xml:11
 msgid "Solution"
-msgstr "Megoldás"
+msgstr "Megoldás (Solution)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:581
 msgid "Custom Commands"
@@ -1274,7 +1272,7 @@ msgstr "Kijelölt szöveg _kisbetűssé tétele"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:755
 msgid "_Remove trailing white spaces"
-msgstr "_Sorvégi sorköz karakterek eltávolítása"
+msgstr "So_rvégi sorköz karakterek eltávolítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:758
 msgid "Join the current line with the next line"
@@ -1320,7 +1318,7 @@ msgstr "Blokk kinyitás/bezárása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:782
 msgid "Toggles the folding at caret position."
-msgstr ""
+msgstr "Kapcsolgatja a kód-hajtogatást a szöveg-kurzor helyén."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:784
 msgid "Toggle _All Folds"
@@ -1328,7 +1326,7 @@ msgstr "Összes blokk kinyitása/bezárása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:786
 msgid "Toggles all the foldings in the document."
-msgstr ""
+msgstr "Az összes hajtogatást kapcsolgatja a dokumentumban."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:788
 msgid "Show _Definitions Only"
@@ -1336,12 +1334,11 @@ msgstr "Csak a definíciók megjelenítése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:789
 msgid "Folds all method and property bodies."
-msgstr ""
+msgstr "Behajtja az összes függvény és tulajdonság függvény-testét."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:793
-#, fuzzy
 msgid "_Format Document"
-msgstr "Dokumentumok"
+msgstr "Dokumentum _Formázása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:800
 msgid "_Add New Project..."
@@ -1349,7 +1346,7 @@ msgstr "Új projekt hozzáadása..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:801
 msgid "Add a new project to the selected solution"
-msgstr "Új projekt hozzáadása a kiválasztott megoldáshoz"
+msgstr "Új projekt hozzáadása a kiválasztott megoldáshoz (solution-hoz)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:804
 msgid "_Add New Workspace..."
@@ -1361,28 +1358,27 @@ msgstr "Új gyermek munkaterület hozzáadása a kiválasztott munkaterülethez"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:808
 msgid "_Add New Solution..."
-msgstr "Új _megoldás hozzáadása..."
+msgstr "Új Megoldás (Solution) hozzá_adása..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:809
 msgid "Add a new child solution to the selected workspace"
-msgstr "Új megoldás hozzáadása a kiválasztott munkaterülethez"
+msgstr "Új megoldás (solution) hozzáadása a kiválasztott munkaterülethez"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:812
 msgid "Add Solution _Folder"
-msgstr "Új megoldás könyvtár"
+msgstr "Egy megoldás könyvtár (solution _folder) hozzáadása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:813
 msgid "Add a new solution folder to the selected solution"
-msgstr "Új megoldás könyvtár hozzáadása a kiválasztott megoldáshoz"
+msgstr "Egy megoldás (solution) könyvtár hozzáadása a kiválasztott megoldáshoz"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:816
 msgid "Add a project to the selected solution"
-msgstr "Létező projekt hozzáadása a kiválasztott megoldáshoz"
+msgstr "Egy projekt hozzáadása a kiválasztott megoldáshoz (solution-hoz)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:817
-#, fuzzy
 msgid "Add Existing _Project..."
-msgstr "Meglévő _projekt hozzáadása"
+msgstr "Létező _Projekt hozzáadása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:819
 msgid "Add an existing item to the selected workspace"
@@ -1392,7 +1388,7 @@ msgstr ""
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:820
 #, fuzzy
 msgid "Add Existing _Item..."
-msgstr "_Létező munkaterület/megoldás hozzáadása"
+msgstr "Létező _Item hozzáadása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:822
 msgid "_Remove From Project"
@@ -1411,25 +1407,23 @@ msgid "Show options window"
 msgstr "Beállítások megjelenítése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:831
-#, fuzzy
 msgid "_Solution Options"
-msgstr "Megoldásbeállítások"
+msgstr "Megoldás (_Solution) beállításai"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:832
-#, fuzzy
 msgid "Show solution options window"
-msgstr "Beállítások megjelenítése"
+msgstr "Megoldás (Solution) beállítás ablak megjelenítése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:835
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ProjectCommands.cs:105
 #, fuzzy
 msgid "Project _Options"
-msgstr "Projektbeállítások"
+msgstr "Pr_ojekt beállítások"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:836
 #, fuzzy
 msgid "Show project options window"
-msgstr "Beállítások megjelenítése"
+msgstr "Projekt beállítás ablak megjelenítése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:839
 msgid "Add and remove project references"
@@ -1478,9 +1472,8 @@ msgid "_Build All"
 msgstr "Fordítás"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:862
-#, fuzzy
 msgid "Build all projects of all solutions"
-msgstr "Megoldáshoz tartozó projektek fordítása"
+msgstr "Minden megoldás projektjeinek fordítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:866
 msgid "Buil_d"
@@ -1491,9 +1484,8 @@ msgid "Build the current project"
 msgstr "Jelenlegi projekt fordítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:875
-#, fuzzy
 msgid "Rebuild all projects of all solutions"
-msgstr "Megoldáshoz tartozó projektek újrafordítása"
+msgstr "Minden megoldás projekjeinek újrafordítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:876
 #, fuzzy
@@ -1544,9 +1536,8 @@ msgid "C_lean"
 msgstr "Tisztítás"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:914
-#, fuzzy
 msgid "Clean all projects of all solutions"
-msgstr "Megoldáshoz tartozó projektek tisztítása"
+msgstr "Minden megoldás projekjeinek tisztítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:915
 #, fuzzy
@@ -1646,9 +1637,10 @@ msgstr "Összes mentése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:983
 msgid "_Solution..."
-msgstr "Új m_egoldás..."
+msgstr "Megoldás (_Solution)..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:985
+#, fuzzy
 msgid "Create a new solution"
 msgstr "Új megoldás létrehozása"
 
@@ -1684,6 +1676,7 @@ msgid "C_lose Workspace"
 msgstr "Munkaterület bezárása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1009
+#, fuzzy
 msgid "Close all solutions open in the current workspace"
 msgstr "Összes megoldás bezárása a jelenlegi munkaterületen"
 
@@ -1692,6 +1685,7 @@ msgid "C_lose"
 msgstr "_Bezárás"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1014
+#, fuzzy
 msgid "Close the active solution or workspace item"
 msgstr "Aktív megoldás vagy munkaterület elem bezárása"
 
@@ -1757,6 +1751,7 @@ msgid "Recent Pro_jects"
 msgstr "Legutóbb megnyitott projektek"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1062
+#, fuzzy
 msgid "Clear recent solutions"
 msgstr "Legutóbb megnyitott megoldások listájának törlése"
 
@@ -2756,6 +2751,7 @@ msgid "LGPL 3 License"
 msgstr "GPL 3 licensz"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.addin.xml:1889
+#, fuzzy
 msgid "MonoDevelop Solution Files"
 msgstr "MonoDevelop megoldások"
 
@@ -3383,6 +3379,7 @@ msgid "The provided file could not be loaded."
 msgstr "A megadott fájl nem tölthető be."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/FileCommands.cs:199
+#, fuzzy
 msgid "C_lose Solution"
 msgstr "_Megoldás bezárása"
 
@@ -3407,6 +3404,7 @@ msgid "Are you sure you want to clear recent files list?"
 msgstr "Biztos benne, hogy törli a legutóbb megnyitott fájlok listáját?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/FileCommands.cs:345
+#, fuzzy
 msgid "Load solution {0}"
 msgstr "Megoldás betöltése: {0}"
 
@@ -3435,6 +3433,7 @@ msgid "B_uild {0}"
 msgstr "{0} fordítása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Commands/ProjectCommands.cs:173
+#, fuzzy
 msgid "Build solution {0}"
 msgstr "Megoldás fordítása: {0}"
 
@@ -3587,6 +3586,7 @@ msgid ""
 msgstr "A fájl ({0}) már létezik. Felül kívánja írni?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Templates/SolutionDescriptor.cs:108
+#, fuzzy
 msgid "Can't create solution with type: {0}"
 msgstr "Nem lehet létrehozni a következő típusú megoldást: {0}"
 
@@ -3786,6 +3786,7 @@ msgstr "Mono dokumentáció"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionFolderNodeBuilder.cs:181
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:177
+#, fuzzy
 msgid "Solution name may not contain any of the following characters: {0}"
 msgstr "A megoldás neve nem tartalmazhatja a következő karaktereket: {0}"
 
@@ -3959,6 +3960,7 @@ msgid "_Remove from Project"
 msgstr "_Eltávolítás a projektből"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/ProjectFileNodeBuilder.cs:225
+#, fuzzy
 msgid ""
 "The Delete option permanently removes the file from your hard disk. Click "
 "Remove from Project if you only want to remove it from your current solution."
@@ -4189,6 +4191,7 @@ msgid "Add or _Remove..."
 msgstr "_Hozzáadás/eltávolítás..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Dialogs/FileSelectorDialog.cs:259
+#, fuzzy
 msgid "Solution Workbench"
 msgstr "Megoldások munkakörnyezete"
 
@@ -4375,6 +4378,7 @@ msgstr ""
 "{0}Âˇ<spanÂˇforeground='red'Âˇsize='small'>(Sikertelen betöltés)</span>"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/UnknownEntryNodeBuilder.cs:123
+#, fuzzy
 msgid "Do you really want to remove project '{0}' from solution '{1}'"
 msgstr "Biztos, hogy eltávolítja a projektet ({0}) a megoldásból ({1})?"
 
@@ -4459,10 +4463,12 @@ msgid "Apply"
 msgstr "Alkalmaz"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:42
+#, fuzzy
 msgid "Build solution before running"
 msgstr "Megoldás fordítása futtatás előtt"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.BuildPanelWidget.cs:54
+#, fuzzy
 msgid "Run solution if build completed with warnings"
 msgstr "Megoldás futtatása, ha a fordítás figyelmeztetésekkel végződött"
 
@@ -4494,6 +4500,7 @@ msgid "Project file format to use when creating new projects:"
 msgstr "Új projektek formátuma:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.LoadSavePanelWidget.cs:94
+#, fuzzy
 msgid "Default _Solution location"
 msgstr "Megoldások alapértelmezett mentési könyvtára:"
 
@@ -4506,6 +4513,7 @@ msgid "Load user-specific settings with the document"
 msgstr "Felhasználóspecifikus beállítások betöltése a dokumentummal"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.LoadSavePanelWidget.cs:166
+#, fuzzy
 msgid "_Load previous solution on startup"
 msgstr "_Legutóbb használt megoldás betöltése indításkor"
 
@@ -4762,16 +4770,19 @@ msgstr "Dokumentum-váltó dialógus-ablak _engedélyezése"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionNodeBuilder.cs:101
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:94
+#, fuzzy
 msgid "Solution {0}"
 msgstr "Megoldás: {0}"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionNodeBuilder.cs:104
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:97
+#, fuzzy
 msgid "Solution {0} (1 entry)"
 msgstr "Megoldás: {0} (1 bejegyzés)"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionNodeBuilder.cs:107
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:100
+#, fuzzy
 msgid "Solution {0} ({1} entries)"
 msgstr "Megoldás: {0} ({1} bejegyzés)"
 
@@ -4784,6 +4795,7 @@ msgstr "Biztosan át kívánja helyezni '{0}' könyvtárat '{1}' könyvtárba?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionNodeBuilder.cs:262
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ClassPad/SolutionNodeBuilder.cs:213
+#, fuzzy
 msgid "Do you really want to remove solution {0} from workspace {1}?"
 msgstr "Biztosan eltávolítja a(z) „{0}” megoldást a(z) „{1}” munkaterületből?"
 
@@ -4806,6 +4818,7 @@ msgid "Standard _Header"
 msgstr "Szabványos fejléc"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Gui.OptionPanels.AuthorInformationPanelWidget.cs:40
+#, fuzzy
 msgid "_Use custom author information for this solution"
 msgstr "Egyedi _beállítások használata ennél a megoldásnál"
 
@@ -5068,6 +5081,7 @@ msgid "_Replace:"
 msgstr "Csere:"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:117
+#, fuzzy
 msgid "Whole solution"
 msgstr "Teljes megoldás"
 
@@ -5125,6 +5139,7 @@ msgid "Currently there is no open solution."
 msgstr "Új megoldás létrehozása"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.FindInFiles/FindInFilesDialog.cs:462
+#, fuzzy
 msgid ""
 "Currently there is no project selected. Search in the solution instead ?"
 msgstr ""
@@ -6125,10 +6140,12 @@ msgid "Save failed."
 msgstr "A mentés nem sikerült."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:316
+#, fuzzy
 msgid "No solution has been selected"
 msgstr "Nincs kiválasztott megoldás"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:316
+#, fuzzy
 msgid "The solution to be executed must be selected in the solution pad."
 msgstr "A végrehajtandó megoldást ki kell választani a megoldás-panelen."
 
@@ -6137,6 +6154,7 @@ msgid "Saving Workspace..."
 msgstr "Mentés..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:378
+#, fuzzy
 msgid "No solution has been selected."
 msgstr "Nincs kiválasztott megoldás."
 
@@ -6151,6 +6169,7 @@ msgid "File is not a project or solution: {0}"
 msgstr "Kérem, jelöljön ki egy projektet vagy megoldást."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/RootWorkspace.cs:611
+#, fuzzy
 msgid "Solution loaded."
 msgstr "A megoldás sikeresen be lett töltve."
 
@@ -6292,6 +6311,7 @@ msgid "A configuration with the name '{0}' already exists."
 msgstr "A megadott néven ({0}) már létezik konfigurációs fájl."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/NewProjectDialog.cs:87
+#, fuzzy
 msgid "New Solution"
 msgstr "Új megoldás"
 
@@ -6352,6 +6372,7 @@ msgid "There are no additional features available for this project."
 msgstr "Nincsenek további képességek ehhez a projekthez."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects/CombineOptionsDialog.cs:44
+#, fuzzy
 msgid "Solution Options"
 msgstr "Megoldásbeállítások"
 
@@ -6397,6 +6418,7 @@ msgid "Project saved."
 msgstr "A projekt sikeresen el lett mentve."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:371
+#, fuzzy
 msgid "Solution saved."
 msgstr "A megoldás sikeresen el lett mentve."
 
@@ -6434,6 +6456,7 @@ msgid "The file '{0}' could not be loaded."
 msgstr "A fájl '{0}' nem tölthető be."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide/ProjectOperations.cs:670
+#, fuzzy
 msgid "Add to Solution"
 msgstr "Hozzáadás a megoldáshoz"
 
@@ -6691,6 +6714,7 @@ msgid "Root directory:"
 msgstr "Célkönyvtár:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CodeFormattingPanelWidget.cs:38
+#, fuzzy
 msgid "This is a summary of all file types used in the project or solution:"
 msgstr ""
 
@@ -6699,6 +6723,7 @@ msgid "<b>Output Directory</b>"
 msgstr "<b>Kimeneti könyvtár</b>"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CombineConfigurationPanelWidget.cs:33
+#, fuzzy
 msgid "Select a target configuration for each solution item:"
 msgstr "Válasszon ki egy célkonfigurációt a megoldás egyes elemeihez:"
 
@@ -6715,6 +6740,7 @@ msgid "S_trong Name File:"
 msgstr "_Rögzített fájlnév:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.OptionPanels.CustomCommandPanelWidget.cs:30
+#, fuzzy
 msgid ""
 "MonoDevelop can execute user specified commands or scripts before, after or "
 "as a replacement of common project operations. It is also possible to enter "
@@ -6945,6 +6971,7 @@ msgid ""
 msgstr "Biztosan törli a triggert ({0})?"
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/CombineConfigurationPanel.cs:79
+#, fuzzy
 msgid "Solution Item"
 msgstr "Megoldás elem"
 
@@ -6995,6 +7022,7 @@ msgid "There must be at least one configuration."
 msgstr "Legalább egy konfigurációs fájlt létre kell hozni."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Projects.OptionPanels/StartupOptionsPanel.cs:88
+#, fuzzy
 msgid "The solution does not contain any executable project"
 msgstr "A megoldás nem tartalmaz végrehajtható projektet."
 
@@ -7036,6 +7064,7 @@ msgid "Are you sure you want to delete this configuration?"
 msgstr "Biztos benne, hogy törölni szeretné a konfigurációt?"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.DeleteConfigDialog.cs:62
+#, fuzzy
 msgid "Delete also configurations in solution items"
 msgstr "A megoldás elemeihez tartozó konfigurációk is törlődjenek"
 
@@ -7081,6 +7110,7 @@ msgid "New Configuration"
 msgstr "Új konfiguráció"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewConfigurationDialog.cs:91
+#, fuzzy
 msgid "Create configurations for all solution items"
 msgstr "Konfiguráció létrehozása a megoldás minden eleméhez."
 
@@ -7122,6 +7152,7 @@ msgid "N_ame:"
 msgstr "_Név:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:275
+#, fuzzy
 msgid "_Solution name:"
 msgstr "_Megoldás neve:"
 
@@ -7130,6 +7161,7 @@ msgid "<b>Project Features</b>"
 msgstr "<b>A projekt szolgáltatásai</b>"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.NewProjectDialog.cs:343
+#, fuzzy
 msgid ""
 "<small>This list shows a set of features you can enable in the new project. "
 "After creating the project those features can be enabled or disabled in the "
@@ -7161,6 +7193,7 @@ msgid "New name:"
 msgstr "Új név:"
 
 #: ../src/core/MonoDevelop.Ide/gtk-gui/MonoDevelop.Ide.Projects.RenameConfigDialog.cs:65
+#, fuzzy
 msgid "Rename configurations in all solution items"
 msgstr "A konfigurációk átnevezése a megoldás minden elemére vonatkozóan"
 
@@ -7283,6 +7316,7 @@ msgid "More"
 msgstr "Összes ikon megjelenítése..."
 
 #: ../src/core/MonoDevelop.Ide/MonoDevelop.Ide.Gui.Pads.ProjectPad/SolutionFolderFileNodeBuilder.cs:85
+#, fuzzy
 msgid ""
 "The Delete option permanently removes the file from your hard disk. Click "
 "Remove from Solution if you only want to remove it from your current solution."
@@ -9029,6 +9063,7 @@ msgid "Update welcome page from internet"
 msgstr "Üdvözlőlap frissítése az internetről"
 
 #: ../src/addins/WelcomePage/WelcomePageOptionPanel.cs:24
+#, fuzzy
 msgid "Close welcome page after opening a solution"
 msgstr ""
 
@@ -9037,6 +9072,7 @@ msgid "Welcome"
 msgstr "Üdvözlőlap"
 
 #: ../src/addins/WelcomePage/WelcomePageView.cs:279
+#, fuzzy
 msgid "Open solution {0}"
 msgstr "A(z) „{0}” megoldás megnyitása"
 
@@ -9091,14 +9127,17 @@ msgid "Common Actions"
 msgstr "Gyakori műveletek"
 
 #: ../src/addins/WelcomePage/WelcomePageContent.xml:4
+#, fuzzy
 msgid "Start a New Solution"
 msgstr "Új megoldás létrehozása"
 
 #: ../src/addins/WelcomePage/WelcomePageContent.xml:5
+#, fuzzy
 msgid "Open a Solution / File"
 msgstr "Egy korábbi fájl vagy megoldás megnyitása"
 
 #: ../src/addins/WelcomePage/WelcomePageContent.xml:9
+#, fuzzy
 msgid "Recent Solutions"
 msgstr "Legutóbbi megoldások"
 
@@ -9111,6 +9150,7 @@ msgid "Last Modified"
 msgstr "Utoljára módosítva"
 
 #: ../src/addins/WelcomePage/WelcomePageContent.xml:13
+#, fuzzy
 msgid "Open Solution"
 msgstr "Megoldás megnyitása"
 
@@ -9168,6 +9208,7 @@ msgid "Importing project: "
 msgstr "Projekt importálása: "
 
 #: ../src/addins/prj2make-sharp-lib/MsPrjHelper.cs:237
+#, fuzzy
 msgid "Importing solution"
 msgstr "Megoldás importálása"
 
@@ -9176,6 +9217,7 @@ msgid "Project file not found: "
 msgstr "A projekt nem található: "
 
 #: ../src/addins/prj2make-sharp-lib/MsPrjHelper.cs:282
+#, fuzzy
 msgid "The solution could not be imported."
 msgstr "A megoldás nem importálható."
 
@@ -9235,6 +9277,7 @@ msgstr ""
 "választja, akkor a meglévő fájlok felül lesznek írva. Elvégzi a konvertálást?"
 
 #: ../src/addins/prj2make-sharp-lib/prj2make-sharp-lib.addin.xml:24
+#, fuzzy
 msgid "Visual Studio Solution"
 msgstr "Visual Studio megoldások"
 
@@ -9373,6 +9416,7 @@ msgid "VBNet"
 msgstr "VBNet"
 
 #: ../src/addins/VBNetBinding/templates/EmptyVBProject.xpt.xml:11
+#, fuzzy
 msgid "Creates an empty VB.Net solution."
 msgstr "Létrehoz egy üres VB.NET megoldást."
 
@@ -9508,6 +9552,7 @@ msgid "This ChangeLog file does not exist and will <b>not</b> be created."
 msgstr "A ChangeLog fájl nem létezik, és <b>nem lesz</b> létrehozva."
 
 #: ../src/addins/ChangeLogAddIn/gtk-gui/MonoDevelop.ChangeLogAddIn.AddLogEntryDialog.cs:225
+#, fuzzy
 msgid ""
 "To change the ChangeLog creation and update policies, open the options dialog "
 "of the project or solution and click on the 'ChangeLog Integration\" "
@@ -9849,10 +9894,12 @@ msgid "Root Directory"
 msgstr "Gyökérkönyvtár"
 
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/SolutionItemDescriptor.cs:44
+#, fuzzy
 msgid "Name of the solution item."
 msgstr "A megoldás elem neve."
 
 #: ../src/addins/MonoDevelop.DesignerSupport/MonoDevelop.DesignerSupport.Projects/SolutionItemDescriptor.cs:57
+#, fuzzy
 msgid "File path of the solution item."
 msgstr "A megoldás elem elérési útvonala."
 
@@ -9922,6 +9969,7 @@ msgid "_Generate Makefiles"
 msgstr "Makefile-ok _generálása"
 
 #: ../src/addins/MonoDevelop.Autotools/Commands.cs:63
+#, fuzzy
 msgid ""
 "Generating Makefiles is not supported for single projects. Do you want to "
 "generate them for the full solution - '{0}' ?"
@@ -9930,6 +9978,7 @@ msgstr ""
 "teljes megoldáshoz ({0}) legenerálni a Makefile-okat?"
 
 #: ../src/addins/MonoDevelop.Autotools/Commands.cs:82
+#, fuzzy
 msgid "{0} already exist for this solution.  Would you like to overwrite them?"
 msgstr "'{0}' már létezik ebben a megoldásban. Felülírja a meglévő elemeket?"
 
@@ -9980,6 +10029,7 @@ msgid "Couldn't find referenced project '{0}'"
 msgstr "Nem található a hivatkozott projekt ({0})."
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionDeployer.cs:83
+#, fuzzy
 msgid "Generating {0} for Solution {1}"
 msgstr "{0} generálása a következő megoldáshoz: {1}"
 
@@ -10005,6 +10055,7 @@ msgid "{0} could not be generated: "
 msgstr "{0} generálása sikertelen volt."
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionDeployer.cs:159
+#, fuzzy
 msgid "Deploying Solution to Tarball"
 msgstr "Megoldás telepítése a csomagba."
 
@@ -10015,6 +10066,7 @@ msgid "An unspecified error occurred while running '{0}'"
 msgstr "Ismeretlen hiba történt a folyamat ({0}) futtatása közben."
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionDeployer.cs:207
+#, fuzzy
 msgid "Solution could not be deployed: "
 msgstr "A megoldást nem sikerült telepíteni: "
 
@@ -10044,6 +10096,7 @@ msgid "Creating Makefile.include"
 msgstr "Makefile.include létrehozása"
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionMakefileHandler.cs:44
+#, fuzzy
 msgid "Creating {0} for Solution {1}"
 msgstr "{0} létrehozása a megoldáshoz ({1})"
 
@@ -10055,6 +10108,7 @@ msgstr ""
 "alkönyvtárában kell lenniük."
 
 #: ../src/addins/MonoDevelop.Autotools/SolutionMakefileHandler.cs:131
+#, fuzzy
 msgid ""
 "More than 1 project in the same directory as the top-level solution is not "
 "supported."
@@ -10085,14 +10139,17 @@ msgstr ""
 "nem adható meg."
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileGeneratorTool.cs:44
+#, fuzzy
 msgid "Error: Solution file not specified."
 msgstr "Hiba: Nem lett megadva a megoldásfájl."
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileGeneratorTool.cs:49
+#, fuzzy
 msgid "Loading solution file {0}"
 msgstr "Megoldás betöltése ('{0}')..."
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileGeneratorTool.cs:54
+#, fuzzy
 msgid ""
 "Error: Makefile generation supported only for solutions.\n"
 msgstr ""
@@ -10111,6 +10168,7 @@ msgid "Select configuration : "
 msgstr "Válasszon ki egy konfigurációt:"
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileGeneratorTool.cs:84
+#, fuzzy
 msgid ""
 "{0} already exist for this solution.  Would you like to overwrite them? (Y/N)"
 msgstr "'{0}' már létezik ehhez a megoldáshoz. Felülírja a meglévő elemeket?"
@@ -10185,6 +10243,7 @@ msgid ""
 msgstr ""
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileOptionPanelWidget.cs:380
+#, fuzzy
 msgid ""
 "Notice that generation of makefiles is not supported for single projects. A "
 "set of makefiles will have to be generated for the whole solution."
@@ -10214,6 +10273,7 @@ msgstr ""
 
 #: ../src/addins/MonoDevelop.Autotools/MakefileProjectServiceExtension.cs:55
 #: ../src/addins/MonoDevelop.Autotools/MakefileProjectServiceExtension.cs:57
+#, fuzzy
 msgid "Error resolving Makefile based project references for solution {0}"
 msgstr "Hiba történt a Makefile alapú projekt referenciák értelmezésekor: {0}"
 
@@ -11739,6 +11799,7 @@ msgid "Translation update failed."
 msgstr "Nem sikerült frissíteni a fordítást."
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext.NodeBuilders/TranslationNodeBuilder.cs:103
+#, fuzzy
 msgid "Do you really want to remove the translation {0} from solution {1}?"
 msgstr "Biztosan törli a fordítást ({0}) a következő megoldásból: {1}?"
 
@@ -11950,6 +12011,7 @@ msgid "Gettext translation"
 msgstr "Gettext fordítás"
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext/GettextFeature.cs:45
+#, fuzzy
 msgid ""
 "Add a Translation Project to the solution that will use gettext to generate a "
 "set of PO files for the new project."
@@ -11977,6 +12039,7 @@ msgid "_Add Translation..."
 msgstr "Új fordítás..."
 
 #: ../src/addins/MonoDevelop.Gettext/MonoDevelop.Gettext.addin.xml:49
+#, fuzzy
 msgid "Add another translation (language) for a solution or project"
 msgstr "Hozzáad egy újabb forítást a megoldáshoz vagy projekthez"
 
@@ -12912,6 +12975,7 @@ msgid "C"
 msgstr "C"
 
 #: ../src/addins/CBinding/templates/EmptyCProject.xpt.xml:12
+#, fuzzy
 msgid "Creates an empty C solution."
 msgstr "Létrehoz egy üres C megoldást."
 
@@ -12928,6 +12992,7 @@ msgid "Empty C++ Project"
 msgstr "Üres C++ projekt"
 
 #: ../src/addins/CBinding/templates/EmptyCppProject.xpt.xml:12
+#, fuzzy
 msgid "Creates an empty C++ solution."
 msgstr "Létrehoz egy üres C++ megoldást."
 
@@ -12995,6 +13060,7 @@ msgid "_Project Directory"
 msgstr "_Projekt könyvtár"
 
 #: ../src/addins/CBinding/Gui/CodeGenerationPanel.cs:47
+#, fuzzy
 msgid "_Root Solution Directory"
 msgstr "A megoldás gyöké_rkönyvtára"
 
@@ -14034,6 +14100,7 @@ msgid "Project name not provided."
 msgstr "A projekt neve nincs megadva."
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:196
+#, fuzzy
 msgid "Please select a project or solution."
 msgstr "Kérem, jelöljön ki egy projektet vagy megoldást."
 
@@ -14042,6 +14109,7 @@ msgid "Package name not provided."
 msgstr "A csomag neve nincs megadva."
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/DeployDialog.cs:215
+#, fuzzy
 msgid "Solution where to create the project not selected."
 msgstr "Nincs megadva az a megoldás, ahol létre szeretné hozni a projektet."
 
@@ -14247,6 +14315,7 @@ msgid "Packaging"
 msgstr "Csomagkészítés"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/MonoDevelop.Deployment.Gui/PackagingFeature.cs:16
+#, fuzzy
 msgid ""
 "Add a Packaging Project to the solution for generating different kinds of "
 "packages for the new project."
@@ -14279,6 +14348,7 @@ msgid "<big><b>Select Project</b></big>"
 msgstr "<big><b>Projekt kiválasztása</b></big>"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/gtk-gui/MonoDevelop.Deployment.Gui.DeployDialog.cs:234
+#, fuzzy
 msgid "Select the project or solution for which you want to create a package:"
 msgstr ""
 "Jelölje ki azt a projektet vagy megoldást, amelyhez létre kívánja hozni a "
@@ -14289,6 +14359,7 @@ msgid "<big><b>Package Settings</b></big>"
 msgstr "<big><b>Csomagbeállítások</b></big>"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/gtk-gui/MonoDevelop.Deployment.Gui.DeployDialog.cs:301
+#, fuzzy
 msgid "Save this package configuration in the solution"
 msgstr "Csomagkonfiguráció mentése a megoldásban"
 
@@ -14313,6 +14384,7 @@ msgid "Project name:"
 msgstr "Projekt neve:"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/gtk-gui/MonoDevelop.Deployment.Gui.DeployDialog.cs:479
+#, fuzzy
 msgid "Create in solution:"
 msgstr "Létrehozás a következő megoldásban:"
 
@@ -14352,12 +14424,14 @@ msgid "Package Settings"
 msgstr "Csomagbeállítások"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/gtk-gui/MonoDevelop.Deployment.Gui.EditPackageDialog.cs:119
+#, fuzzy
 msgid "Select the projects and solutions you want to include in the package:"
 msgstr ""
 "Jelölje ki azokat a projekteket és megoldásokat, melyeket mellékelni kíván a "
 "csomagban:s"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/gtk-gui/MonoDevelop.Deployment.Gui.EditPackageDialog.cs:138
+#, fuzzy
 msgid "Projects/Solutions"
 msgstr "Projektek/megoldások"
 
@@ -14460,6 +14534,7 @@ msgid "Packaging project"
 msgstr "Csomagoló projekt"
 
 #: ../src/addins/Deployment/MonoDevelop.Deployment/templates/PackagingProject.xpt.xml:8
+#, fuzzy
 msgid "Create a project which can generate packages for a solution"
 msgstr ""
 "Létrehoz egy olyan projektet, melynek segítségével csomagok generálhatók egy "
