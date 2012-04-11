@@ -696,7 +696,8 @@ namespace Mono.TextEditor
 		{
 			if (popupWindow != null)
 				popupWindow.Destroy ();
-			
+
+			HideTooltip ();
 			Document.EndUndo -= HandleDocumenthandleEndUndo;
 			Document.TextReplaced -= OnDocumentStateChanged;
 			Document.TextSet -= OnTextSet;
@@ -790,12 +791,11 @@ namespace Mono.TextEditor
 		
 		internal void RedrawLine (int logicalLine)
 		{
-			if (isDisposed)
+			if (isDisposed || logicalLine > LineCount || logicalLine < DocumentLocation.MinLine)
 				return;
-			
 			double y = LineToY (logicalLine) - this.textEditorData.VAdjustment.Value;
 			double h = GetLineHeight (logicalLine);
-			
+
 			if (y + h > 0)
 				QueueDrawArea (0, (int)y, this.Allocation.Width, (int)h);
 		}
